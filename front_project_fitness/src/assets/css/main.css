@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --themeBackground: #4b4b4b;
+    --themeTextColor01: white;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.clip_header{
+    width: 100%;
+    height: 600px;
+    clip-path: polygon(
+        0% 0%,
+        0% 550px,
+        50% 600px,
+        100% 550px,
+        100% 0%
+    );
+}
+
+header{
+    width: 100%;
+    height: 600px;
+    background-color: #4b4b4b;
+    background-image: url('../images/header_background.jpg');
+    background-size: cover;
+    background-position: center top;
+    padding: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+header::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: blue;
+    opacity: 0.1;
+    z-index: 2;
+    top: 0px;
+    left: 0;
+}
+
+.header_contacts, .resumes, header.container{
+    z-index: 3;
+}
+
+.container{
+    max-width: 1100px;
+    width: auto;
+    min-height: 10px;
+    height: auto;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+}
+
+/* CLASSES FLEXBOX */
+.d_flex{
+    display: flex;
+}
+
+.justify_between{
+    justify-content: space-between;    
+}
+
+.justify_around{
+    justify-content: space-around;    
+}
+
+.justify_center{
+    justify-content: center;    
+}
+
+.gap_10{
+    gap: 10px;
+}
+
+.gap_20{
+    gap: 20px;
+}
+
+.gap_30{
+    gap: 30px;
+}
+
+.gap_40{
+    gap: 30px;
+}
+
+.gap_50{
+    gap: 50px;
+}
+
+.w_100{
+    width: 100%;
+}
+
+.align_items_center{
+    align-items: center;
+}
+
+.flex_direction_column{
+    flex-direction: column;
+}
+
+.flex_direction_row{
+    flex-direction: row;
+}
+/* CLASSES FLEXBOX */
+
+.brand{
+    width: 90px;
+}
+
+.text_white{
+    color: white;
+}
+
+.text_center{
+    text-align: center;
+}
+
+.f_weight_3{
+    font-weight: 300;
+}
+
+.f_weight_4{
+    font-weight: 400;
+}
+
+.f_weight_5{
+    font-weight: 500;
+}
+
+.f_size_50{
+    font-size: 50px;
+}
+
+.f_size_12{
+    font-size: 12px;
+}
+
+nav ul li{
+    padding: 10px 15px;
+    border: 1px solid transparent;
+    transition: all linear 0.2s;
+}
+
+nav ul li:hover{
+    border: 1px solid #B0CB1F;
+    border-radius: 5px;
+}
+
+nav ul li.active{
+    border: 1px solid #B0CB1F;
+    border-radius: 5px;
+}
+
+nav ul li a{
+    font-weight: 500;
+    color: white;
+    font-size: 13px;
+    sfont-style: italic;
+}
+
+.auth_button{
+    background-color: #B0CB1F;
+    border: none;
+    padding: 10px 45px;
+    border-radius: 50px;    
+    font-weight: 700;
+    font-style: italic;
+    color: #333;
+    font-size: 12px;
+    transition: all linear 0.2s;
+}
+
+.auth_button:hover{
+    background-color: #6b7a15;
+    color: #fff;
+}
+
+.nav_login{
+    display: none;
+}
+
+.nav_icon_menu{
+    display: none;
+}
+
+.resume_header{
+    width: 60%;
+    min-height: 100px;   
+    height: 480px;
+    margin: auto;
+}
+
+.header_title{
+    text-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 992px){
+    
+}
+
+
+@media(max-width: 768px){
+    .nav_login{
+        display: block;
+    }
+
+    .nav_open{
+        opacity: 0.9 !important;
+
+    }
+
+    .nav_closed{
+        opacity: 0 !important;
+    }
+
+    .nav_top ul{
+        display: block;
+    }
+
+    .nav_top ul{
+        position: absolute;
+        width: 100%;
+        left: 0px;
+        top: 84px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: black;
+        padding: 30px 0px;
+        transition: all linear 0.2s;
+        opacity: 0.9;
+    }
+
+    .auth{
+        display: none;
+    }
+
+    .nav_icon_menu{
+        display: block;
+    }  
+    
+    .resume_header{
+        width: 100%;
+    }
+    .header_title{
+        font-size: 30px;
+    }
+
+    .header_subtitle{
+        font-size: 10px;
+    }
+
+    .header_contacts{
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+}
