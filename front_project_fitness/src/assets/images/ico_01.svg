@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="293px" height="260px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 340.73 302.85"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str1 {stroke:#8833FF;stroke-width:12.85;stroke-miterlimit:22.9256}
+    .str8 {stroke:#8833FF;stroke-width:12.85;stroke-miterlimit:22.9256}
+    .str0 {stroke:#8833FF;stroke-width:12.85;stroke-miterlimit:22.9256}
+    .str5 {stroke:#8833FF;stroke-width:12.85;stroke-miterlimit:22.9256}
+    .str4 {stroke:#8833FF;stroke-width:12.85;stroke-miterlimit:22.9256}
+    .str3 {stroke:#8833FF;stroke-width:12.85;stroke-miterlimit:22.9256}
+    .str2 {stroke:#8833FF;stroke-width:12.85;stroke-miterlimit:22.9256}
+    .str6 {stroke:#8833FF;stroke-width:12.85;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256}
+    .str11 {stroke:#8833FF;stroke-width:12.85;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256}
+    .str12 {stroke:#8833FF;stroke-width:12.85;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256}
+    .str7 {stroke:#8833FF;stroke-width:12.85;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256}
+    .str9 {stroke:#8833FF;stroke-width:12.85;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256}
+    .str10 {stroke:#8833FF;stroke-width:12.85;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256}
+    .fil0 {fill:none}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1831379264">
+   <rect class="fil0 str0" x="44.85" y="6.43" width="38.43" height="121.83" rx="19.21" ry="19.21"/>
+   <rect class="fil0 str1" x="6.43" y="25.64" width="38.43" height="83.41" rx="19.21" ry="19.21"/>
+   <rect class="fil0 str2" x="257.45" y="6.43" width="38.43" height="121.83" rx="19.21" ry="19.21"/>
+   <rect class="fil0 str3" x="295.88" y="25.64" width="38.43" height="83.41" rx="19.21" ry="19.21"/>
+   <line class="fil0 str4" x1="83.28" y1="67.34" x2="257.45" y2= "67.34" />
+   <rect class="fil0 str5" x="117.74" y="180.97" width="105.7" height="28.86" rx="14.43" ry="14.43"/>
+   <g>
+    <line class="fil0 str6" x1="140.3" y1="209.83" x2="140.3" y2= "296.42" />
+    <line class="fil0 str7" x1="200.88" y1="209.83" x2="200.88" y2= "296.42" />
+    <line class="fil0 str8" x1="140.3" y1="274.88" x2="200.88" y2= "274.88" />
+   </g>
+   <g>
+    <line class="fil0 str9" x1="83.28" y1="67.34" x2="83.28" y2= "294.39" />
+    <line class="fil0 str10" x1="50.66" y1="295.31" x2="107.17" y2= "295.31" />
+   </g>
+   <g>
+    <line class="fil0 str11" x1="257.45" y1="67.34" x2="257.45" y2= "294.39" />
+    <line class="fil0 str12" x1="224.83" y1="295.31" x2="281.34" y2= "295.31" />
+   </g>
+  </g>
+ </g>
+</svg>
